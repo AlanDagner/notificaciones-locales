@@ -22,6 +22,7 @@ Future<void> mostrarNotificacion() async {
     AndroidNotificationDetails(
         'your channel id',
         'your channel name',
+        // mostrar notificacin en la parte superior
         importance: Importance.max,
         priority: Priority.high,
     );
